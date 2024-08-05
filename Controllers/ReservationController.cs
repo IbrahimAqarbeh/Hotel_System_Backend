@@ -38,7 +38,7 @@ public class ReservationController : Controller
 
         return Ok(reservation.ReservationNumber);
     }
-
+ 
     [Authorize]
     [HttpPost]
     [Route("api/[controller]/createAndCheckIn")]
